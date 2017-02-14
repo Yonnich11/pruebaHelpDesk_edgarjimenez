@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <fieldset><legend>Crear Ticket</legend>
+        <div class="form-group">
+            <label class="control-label">Nombre del Usuario que asignara el ticket:</label>
+
+            {{datainPantalla.NAME}}
+
+        </div>
+        <div class="form-group">
+            <label class="control-label">Departamento:</label>
+
+            {{datainPantalla.DEPARTAMENT}}
+
+        </div>
+        <div class="form-group">
+            <label class="control-label">Problema</label>
+
+            <select class="form-control col-md-4" ng-options="problem.ID_PROBLEM as problem.PROBLEM for problem in dataforSelect._PROBLEM" ng-model="ticket.ID_PROBLEM">
+                <option value="">[Seleccione]</option>
+            </select>
+
+        </div>
+        <div class="form-group">
+            <label class="control-label">Descripcion</label>
+
+            <textarea ng-model="ticket.DESCRIPCION" maxlength="200" class="form-control col-md-6" />
+
+        </div>
+       
+        <div class="form-group">
+            <label class="control-label">Adjuntar</label>
+
+            <input type="file" ng-model="ticket.FILES" class="form-control col-md-6" name="file" base-sixty-four-input required onload="onLoad" maxsize="500" accept="image/*" />
+          
+            <!--<div class="thumbnail" ng-show="base64Imagen">
+                <img data-ng-src="base64Imagen" width="100" height="100" />
+            </div>-->
+
+        </div>
+    <div class="form-group">
+        <button type="button" ng-click="Save()" class="btn btn-success">Enviar Ticket</button>
+    </div>
+    </fieldset>
+</body>
+</html>

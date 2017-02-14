@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body class="container">
+    <div class="form-group">
+        <fieldset>
+            <legend>Creacion de Usuarios</legend>
+
+    
+    <div class="form-group">
+        <label class="control-label">Nombres</label>
+
+        <input type="text" ng-model="user.NAME" class="form-control col-md-6" />
+
+    </div>
+            <div class="form-group">
+                <label class="control-label">Departamento</label>
+
+                <select class="form-control col-md-4" ng-options="dpt.ID_DEPARTMENT as dpt.DEPARTMENT for dpt in dataforSelect.DEPARTMENT" ng-model="user.ID_DEPARMENT">
+                    <option value="">[Seleccione]</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Rol</label>
+
+                <select class="form-control col-md-4" ng-options="rol.ID_ROL as rol.ROL for rol in dataforSelect.ROLES"  ng-model="user.ID_ROL">
+                    <option  value="">[Seleccione]</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="control-label">User Name</label>
+
+                <input type="text" maxlength="50" ng-model="user.USER_NAME"  class="form-control col-md-6" />
+
+                <div class="form-group">
+                    <label class="control-label">Password</label>
+
+                    <input type="password" maxlength="50" ng-model="user.PASSWORD" class="form-control col-md-6" />
+
+                </div>
+               
+            </div>
+
+            <div class="btn btn-group">
+                <button type="button" ng-click="SaveUser()" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-danger">Cancelar</button>
+            </div>
+
+
+    </fieldset>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="debcb62a2c6b4a0b92c4b04e08ead30d" Name="Diagram1">
+        <EntityTypeShape EntityType="PRUEBA_HELP_DESKModel.PR_DEPARTMENTS" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PRUEBA_HELP_DESKModel.PR_PROBLEM" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PRUEBA_HELP_DESKModel.PR_TICKET" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PRUEBA_HELP_DESKModel.PR_TICKET_STATE" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PRUEBA_HELP_DESKModel.PR_USER_FOLLOWED" Width="1.5" PointX="8.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PRUEBA_HELP_DESKModel.PR_USERS" Width="1.5" PointX="6" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PRUEBA_HELP_DESKModel.PR_USERS_ROL" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="PRUEBA_HELP_DESKModel.FK__PR_TICKET__ID_DE__22AA2996" ManuallyRouted="false" />
+        <AssociationConnector Association="PRUEBA_HELP_DESKModel.FK__PR_USERS__ID_DEP__182C9B23" ManuallyRouted="false" />
+        <AssociationConnector Association="PRUEBA_HELP_DESKModel.FK__PR_TICKET__ID_PR__21B6055D" ManuallyRouted="false" />
+        <AssociationConnector Association="PRUEBA_HELP_DESKModel.FK__PR_TICKET__ID_ST__239E4DCF" ManuallyRouted="false" />
+        <AssociationConnector Association="PRUEBA_HELP_DESKModel.FK__PR_TICKET__USER___1FCDBCEB" ManuallyRouted="false" />
+        <AssociationConnector Association="PRUEBA_HELP_DESKModel.FK__PR_TICKET__USER___20C1E124" ManuallyRouted="false" />
+        <AssociationConnector Association="PRUEBA_HELP_DESKModel.FK__PR_USER_F__ID_US__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="PRUEBA_HELP_DESKModel.FK__PR_USER_F__ID_US__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="PRUEBA_HELP_DESKModel.FK__PR_USERS__ID_ROL__173876EA" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="PRUEBA_HELP_DESKModel.PR_ANEXOS" Width="1.5" PointX="5.25" PointY="8.625" />
+        <AssociationConnector Association="PRUEBA_HELP_DESKModel.FK__PR_ANEXOS__ID_TI__29572725" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

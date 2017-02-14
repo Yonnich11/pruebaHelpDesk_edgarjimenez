@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PRUEBA_HELP_DESKModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="PR_DEPARTMENTS">
+    <Key>
+      <PropertyRef Name="ID_DEPARTMENT" />
+    </Key>
+    <Property Name="ID_DEPARTMENT" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DEPARTMENT" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="PR_TICKET" Relationship="Self.FK__PR_TICKET__ID_DE__22AA2996" FromRole="PR_DEPARTMENTS" ToRole="PR_TICKET" />
+    <NavigationProperty Name="PR_USERS" Relationship="Self.FK__PR_USERS__ID_DEP__182C9B23" FromRole="PR_DEPARTMENTS" ToRole="PR_USERS" />
+  </EntityType>
+  <EntityType Name="PR_PROBLEM">
+    <Key>
+      <PropertyRef Name="ID_PROBLEM" />
+    </Key>
+    <Property Name="ID_PROBLEM" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PROBLEM" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="PR_TICKET" Relationship="Self.FK__PR_TICKET__ID_PR__21B6055D" FromRole="PR_PROBLEM" ToRole="PR_TICKET" />
+  </EntityType>
+  <EntityType Name="PR_TICKET">
+    <Key>
+      <PropertyRef Name="ID_TICKET" />
+    </Key>
+    <Property Name="ID_TICKET" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="USER_CREATED" Type="Int32" />
+    <Property Name="USER_ASIGNED" Type="Int32" />
+    <Property Name="DESCRIPCION" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="COMMENTARY" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="ID_PROBLEM" Type="Int32" />
+    <Property Name="ID_DEPARTMENT_ASIGNED" Type="Int32" />
+    <Property Name="CREATED_DATE" Type="DateTime" Precision="3" />
+    <Property Name="CLOSED_DATE" Type="DateTime" Precision="3" />
+    <Property Name="ID_STATE" Type="Int32" />
+    <NavigationProperty Name="PR_DEPARTMENTS" Relationship="Self.FK__PR_TICKET__ID_DE__22AA2996" FromRole="PR_TICKET" ToRole="PR_DEPARTMENTS" />
+    <NavigationProperty Name="PR_PROBLEM" Relationship="Self.FK__PR_TICKET__ID_PR__21B6055D" FromRole="PR_TICKET" ToRole="PR_PROBLEM" />
+    <NavigationProperty Name="PR_TICKET_STATE" Relationship="Self.FK__PR_TICKET__ID_ST__239E4DCF" FromRole="PR_TICKET" ToRole="PR_TICKET_STATE" />
+    <NavigationProperty Name="PR_USERS" Relationship="Self.FK__PR_TICKET__USER___1FCDBCEB" FromRole="PR_TICKET" ToRole="PR_USERS" />
+    <NavigationProperty Name="PR_USERS1" Relationship="Self.FK__PR_TICKET__USER___20C1E124" FromRole="PR_TICKET" ToRole="PR_USERS" />
+    <NavigationProperty Name="PR_ANEXOS" Relationship="PRUEBA_HELP_DESKModel.FK__PR_ANEXOS__ID_TI__29572725" FromRole="PR_TICKET" ToRole="PR_ANEXOS" />
+  </EntityType>
+  <EntityType Name="PR_TICKET_STATE">
+    <Key>
+      <PropertyRef Name="ID_STATE" />
+    </Key>
+    <Property Name="ID_STATE" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="STATE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="PR_TICKET" Relationship="Self.FK__PR_TICKET__ID_ST__239E4DCF" FromRole="PR_TICKET_STATE" ToRole="PR_TICKET" />
+  </EntityType>
+  <EntityType Name="PR_USER_FOLLOWED">
+    <Key>
+      <PropertyRef Name="ID_FOLLOW" />
+    </Key>
+    <Property Name="ID_FOLLOW" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_USER_FOLLOWED" Type="Int32" />
+    <Property Name="ID_USER_FALLOW" Type="Int32" />
+    <NavigationProperty Name="PR_USERS" Relationship="Self.FK__PR_USER_F__ID_US__2C3393D0" FromRole="PR_USER_FOLLOWED" ToRole="PR_USERS" />
+    <NavigationProperty Name="PR_USERS1" Relationship="Self.FK__PR_USER_F__ID_US__2D27B809" FromRole="PR_USER_FOLLOWED" ToRole="PR_USERS" />
+  </EntityType>
+  <EntityType Name="PR_USERS">
+    <Key>
+      <PropertyRef Name="ID_USER" />
+    </Key>
+    <Property Name="ID_USER" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NAME" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Name="ID_ROL" Type="Int32" />
+    <Property Name="USER_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PASSWORD" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ACTIVE" Type="Boolean" />
+    <Property Name="ID_DEPARMENT" Type="Int32" />
+    <Property Name="CREATED_DATE" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="PR_DEPARTMENTS" Relationship="Self.FK__PR_USERS__ID_DEP__182C9B23" FromRole="PR_USERS" ToRole="PR_DEPARTMENTS" />
+    <NavigationProperty Name="PR_TICKET" Relationship="Self.FK__PR_TICKET__USER___1FCDBCEB" FromRole="PR_USERS" ToRole="PR_TICKET" />
+    <NavigationProperty Name="PR_TICKET1" Relationship="Self.FK__PR_TICKET__USER___20C1E124" FromRole="PR_USERS" ToRole="PR_TICKET" />
+    <NavigationProperty Name="PR_USER_FOLLOWED" Relationship="Self.FK__PR_USER_F__ID_US__2C3393D0" FromRole="PR_USERS" ToRole="PR_USER_FOLLOWED" />
+    <NavigationProperty Name="PR_USER_FOLLOWED1" Relationship="Self.FK__PR_USER_F__ID_US__2D27B809" FromRole="PR_USERS" ToRole="PR_USER_FOLLOWED" />
+    <NavigationProperty Name="PR_USERS_ROL" Relationship="Self.FK__PR_USERS__ID_ROL__173876EA" FromRole="PR_USERS" ToRole="PR_USERS_ROL" />
+  </EntityType>
+  <EntityType Name="PR_USERS_ROL">
+    <Key>
+      <PropertyRef Name="ID_ROL" />
+    </Key>
+    <Property Name="ID_ROL" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ROL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="PR_USERS" Relationship="Self.FK__PR_USERS__ID_ROL__173876EA" FromRole="PR_USERS_ROL" ToRole="PR_USERS" />
+  </EntityType>
+  <Association Name="FK__PR_TICKET__ID_DE__22AA2996">
+    <End Role="PR_DEPARTMENTS" Type="Self.PR_DEPARTMENTS" Multiplicity="0..1" />
+    <End Role="PR_TICKET" Type="Self.PR_TICKET" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PR_DEPARTMENTS">
+        <PropertyRef Name="ID_DEPARTMENT" />
+      </Principal>
+      <Dependent Role="PR_TICKET">
+        <PropertyRef Name="ID_DEPARTMENT_ASIGNED" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PR_USERS__ID_DEP__182C9B23">
+    <End Role="PR_DEPARTMENTS" Type="Self.PR_DEPARTMENTS" Multiplicity="0..1" />
+    <End Role="PR_USERS" Type="Self.PR_USERS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PR_DEPARTMENTS">
+        <PropertyRef Name="ID_DEPARTMENT" />
+      </Principal>
+      <Dependent Role="PR_USERS">
+        <PropertyRef Name="ID_DEPARMENT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PR_TICKET__ID_PR__21B6055D">
+    <End Role="PR_PROBLEM" Type="Self.PR_PROBLEM" Multiplicity="0..1" />
+    <End Role="PR_TICKET" Type="Self.PR_TICKET" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PR_PROBLEM">
+        <PropertyRef Name="ID_PROBLEM" />
+      </Principal>
+      <Dependent Role="PR_TICKET">
+        <PropertyRef Name="ID_PROBLEM" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PR_TICKET__ID_ST__239E4DCF">
+    <End Role="PR_TICKET_STATE" Type="Self.PR_TICKET_STATE" Multiplicity="0..1" />
+    <End Role="PR_TICKET" Type="Self.PR_TICKET" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PR_TICKET_STATE">
+        <PropertyRef Name="ID_STATE" />
+      </Principal>
+      <Dependent Role="PR_TICKET">
+        <PropertyRef Name="ID_STATE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PR_TICKET__USER___1FCDBCEB">
+    <End Role="PR_USERS" Type="Self.PR_USERS" Multiplicity="0..1" />
+    <End Role="PR_TICKET" Type="Self.PR_TICKET" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PR_USERS">
+        <PropertyRef Name="ID_USER" />
+      </Principal>
+      <Dependent Role="PR_TICKET">
+        <PropertyRef Name="USER_CREATED" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PR_TICKET__USER___20C1E124">
+    <End Role="PR_USERS" Type="Self.PR_USERS" Multiplicity="0..1" />
+    <End Role="PR_TICKET" Type="Self.PR_TICKET" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PR_USERS">
+        <PropertyRef Name="ID_USER" />
+      </Principal>
+      <Dependent Role="PR_TICKET">
+        <PropertyRef Name="USER_ASIGNED" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PR_USER_F__ID_US__2C3393D0">
+    <End Role="PR_USERS" Type="Self.PR_USERS" Multiplicity="0..1" />
+    <End Role="PR_USER_FOLLOWED" Type="Self.PR_USER_FOLLOWED" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PR_USERS">
+        <PropertyRef Name="ID_USER" />
+      </Principal>
+      <Dependent Role="PR_USER_FOLLOWED">
+        <PropertyRef Name="ID_USER_FOLLOWED" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PR_USER_F__ID_US__2D27B809">
+    <End Role="PR_USERS" Type="Self.PR_USERS" Multiplicity="0..1" />
+    <End Role="PR_USER_FOLLOWED" Type="Self.PR_USER_FOLLOWED" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PR_USERS">
+        <PropertyRef Name="ID_USER" />
+      </Principal>
+      <Dependent Role="PR_USER_FOLLOWED">
+        <PropertyRef Name="ID_USER_FALLOW" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PR_USERS__ID_ROL__173876EA">
+    <End Role="PR_USERS_ROL" Type="Self.PR_USERS_ROL" Multiplicity="0..1" />
+    <End Role="PR_USERS" Type="Self.PR_USERS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PR_USERS_ROL">
+        <PropertyRef Name="ID_ROL" />
+      </Principal>
+      <Dependent Role="PR_USERS">
+        <PropertyRef Name="ID_ROL" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PRUEBA_HELP_DESKEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="PR_DEPARTMENTS" EntityType="Self.PR_DEPARTMENTS" />
+    <EntitySet Name="PR_PROBLEM" EntityType="Self.PR_PROBLEM" />
+    <EntitySet Name="PR_TICKET" EntityType="Self.PR_TICKET" />
+    <EntitySet Name="PR_TICKET_STATE" EntityType="Self.PR_TICKET_STATE" />
+    <EntitySet Name="PR_USER_FOLLOWED" EntityType="Self.PR_USER_FOLLOWED" />
+    <EntitySet Name="PR_USERS" EntityType="Self.PR_USERS" />
+    <EntitySet Name="PR_USERS_ROL" EntityType="Self.PR_USERS_ROL" />
+    <AssociationSet Name="FK__PR_TICKET__ID_DE__22AA2996" Association="Self.FK__PR_TICKET__ID_DE__22AA2996">
+      <End Role="PR_DEPARTMENTS" EntitySet="PR_DEPARTMENTS" />
+      <End Role="PR_TICKET" EntitySet="PR_TICKET" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PR_USERS__ID_DEP__182C9B23" Association="Self.FK__PR_USERS__ID_DEP__182C9B23">
+      <End Role="PR_DEPARTMENTS" EntitySet="PR_DEPARTMENTS" />
+      <End Role="PR_USERS" EntitySet="PR_USERS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PR_TICKET__ID_PR__21B6055D" Association="Self.FK__PR_TICKET__ID_PR__21B6055D">
+      <End Role="PR_PROBLEM" EntitySet="PR_PROBLEM" />
+      <End Role="PR_TICKET" EntitySet="PR_TICKET" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PR_TICKET__ID_ST__239E4DCF" Association="Self.FK__PR_TICKET__ID_ST__239E4DCF">
+      <End Role="PR_TICKET_STATE" EntitySet="PR_TICKET_STATE" />
+      <End Role="PR_TICKET" EntitySet="PR_TICKET" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PR_TICKET__USER___1FCDBCEB" Association="Self.FK__PR_TICKET__USER___1FCDBCEB">
+      <End Role="PR_USERS" EntitySet="PR_USERS" />
+      <End Role="PR_TICKET" EntitySet="PR_TICKET" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PR_TICKET__USER___20C1E124" Association="Self.FK__PR_TICKET__USER___20C1E124">
+      <End Role="PR_USERS" EntitySet="PR_USERS" />
+      <End Role="PR_TICKET" EntitySet="PR_TICKET" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PR_USER_F__ID_US__2C3393D0" Association="Self.FK__PR_USER_F__ID_US__2C3393D0">
+      <End Role="PR_USERS" EntitySet="PR_USERS" />
+      <End Role="PR_USER_FOLLOWED" EntitySet="PR_USER_FOLLOWED" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PR_USER_F__ID_US__2D27B809" Association="Self.FK__PR_USER_F__ID_US__2D27B809">
+      <End Role="PR_USERS" EntitySet="PR_USERS" />
+      <End Role="PR_USER_FOLLOWED" EntitySet="PR_USER_FOLLOWED" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PR_USERS__ID_ROL__173876EA" Association="Self.FK__PR_USERS__ID_ROL__173876EA">
+      <End Role="PR_USERS_ROL" EntitySet="PR_USERS_ROL" />
+      <End Role="PR_USERS" EntitySet="PR_USERS" />
+    </AssociationSet>
+    <EntitySet Name="PR_ANEXOS" EntityType="PRUEBA_HELP_DESKModel.PR_ANEXOS" />
+    <AssociationSet Name="FK__PR_ANEXOS__ID_TI__29572725" Association="PRUEBA_HELP_DESKModel.FK__PR_ANEXOS__ID_TI__29572725">
+      <End Role="PR_TICKET" EntitySet="PR_TICKET" />
+      <End Role="PR_ANEXOS" EntitySet="PR_ANEXOS" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="PR_ANEXOS">
+    <Key>
+      <PropertyRef Name="ID_ANEXO" />
+    </Key>
+    <Property Name="ID_ANEXO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_TICKET" Type="Int32" />
+    <Property Name="FILES_NTEXT" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="PR_TICKET" Relationship="PRUEBA_HELP_DESKModel.FK__PR_ANEXOS__ID_TI__29572725" FromRole="PR_ANEXOS" ToRole="PR_TICKET" />
+  </EntityType>
+  <Association Name="FK__PR_ANEXOS__ID_TI__29572725">
+    <End Type="PRUEBA_HELP_DESKModel.PR_TICKET" Role="PR_TICKET" Multiplicity="0..1" />
+    <End Type="PRUEBA_HELP_DESKModel.PR_ANEXOS" Role="PR_ANEXOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PR_TICKET">
+        <PropertyRef Name="ID_TICKET" />
+      </Principal>
+      <Dependent Role="PR_ANEXOS">
+        <PropertyRef Name="ID_TICKET" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

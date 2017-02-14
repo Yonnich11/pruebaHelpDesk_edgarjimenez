@@ -1,0 +1,66 @@
+﻿
+<div class="modal-content panel-default">
+
+    <div class="modal-header panel-heading" id="act_client_data">
+        <h3 class="modal-title" id="modal-title"><span class="glyphicon glyphicon-lock"></span>  Cerrar Ticket </h3>
+    </div>
+
+    <form name="">
+        <div class="modal-body" id="modal-body">
+
+            <div class="form-group">
+                <label class="control-label">ID Ticket</label>
+                <div class="">
+                    {{dataTicket.ID_TICKET}}
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Estado</label>
+                <div class="">
+                    {{dataTicket.ESTADO}}
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Fecha Creado</label>
+                <div class="">
+                    {{dataTicket.CREATED_DATE}}
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Problema</label>
+                <div class="">
+                    {{dataTicket.PROBLEM}}
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Descripcion</label>
+                <div class="">
+                    {{dataTicket.DESCRIPCION}}
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Comentario</label>
+                    <div class="">
+                        <input type="text" ng-model="ticket.COMMENTARY" class="form-control"  maxlength="200"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <div class="modal-footer">
+        <div class="btn-group">
+            <button type="button" class="btn btn-success" ng-click="CloseTicket();">Cerrar Ticket <span class="glyphicon glyphicon-user"></span></button>
+        </div>
+
+        <div class="btn-group">
+            <button type="button" ng-click="cancel()" class="btn btn-danger">Cancelar<span class="glyphicon glyphicon-log-out"></span></button>
+        </div>
+
+    </div>
+
+
+</div>
+
+
+
+
+

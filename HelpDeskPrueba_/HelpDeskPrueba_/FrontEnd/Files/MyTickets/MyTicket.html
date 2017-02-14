@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#home">Mis Ticket</a></li>
+            <li><a data-toggle="tab" href="#seg">Ticket de Usuarios Seguidos</a></li>
+           
+        </ul>
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+                <h3>Mis Ticket</h3>
+                <input type="text" class="form-control text-center" placeholder="BUSCAR" ng-model="search" />
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <td>ID Ticket</td>
+                            <td>Usuario Creador</td>
+                            <td>Problema</td>
+                            <td>Descripcion</td>
+                            <td>Fecha Creado</td>
+                            <td>Estado</td>
+                            <td>Opcion</td>
+                            <td>Ver adjunto</td>
+                        </tr>
+
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="item in myTicket |filter:search">
+                            <td>{{item.ID_TICKET}}</td>
+                            <td>{{item.USER_CREATE}}</td>
+                            <td>{{item.PROBLEM}}</td>
+                            <td>{{item.DESCRIPCION}}</td>
+                            <td>{{item.CREATED_DATE | date}}</td>
+                            <td>{{item.ESTATE}}</td>
+                            <td><button type="button" ng-click="OpenModal(item)" class="btn btn-danger">Cerrar Ticket</button></td>
+                            <td ng-if="item.FILES"><button type="button" ng-click="OpenModalallImages(item)" class="btn btn-link">Ver Adjunto</button></td>
+
+                          </tr>
+                    </tbody>
+                </table>
+               
+            </div>
+            <div id="seg" class="tab-pane fade">
+                <h3>Ticket de mis usuarios seguidos</h3>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <td>ID Ticket</td>
+                            <td>Usuario Creador</td>
+                            <td>Usuario Asignado</td>
+                            <td>Problema</td>
+                            <td>Descripcion</td>
+                            <td>Fecha Creado</td>
+                            <td>Estado</td>
+                        </tr>
+
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="item in fallow">
+                            <td>{{item.ID_TICKET}}</td>
+                            <td>{{item.NAME_CREATED}}</td>
+                            <td>{{item.NAME_ASIGNED}}</td>
+                            <td>{{item.PROBLEM}}</td>
+                            <td>{{item.DESCRIPCION}}</td>
+                            <td>{{item.CREATED_DATE | date}}</td>
+                            <td>{{item.STATE}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            </div>
+
+</body>
+</html>

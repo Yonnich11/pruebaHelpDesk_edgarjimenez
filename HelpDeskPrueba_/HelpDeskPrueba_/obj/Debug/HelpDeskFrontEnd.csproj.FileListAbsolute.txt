@@ -1,0 +1,132 @@
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\csc.exe
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\System.Collections.Immutable.dll
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\vbc.exe
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\VBCSCompiler.exe
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\VBCSCompiler.exe.config
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\HelpDeskPrueba_.dll.config
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\HelpDeskPrueba_.dll
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\HelpDeskPrueba_.pdb
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\DataBaseProject.dll
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\HelpDeskBackend.dll
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\DataBaseProject.pdb
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\HelpDeskBackend.pdb
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\obj\Debug\HelpDeskFrontEnd.csprojResolveAssemblyReference.cache
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\obj\Debug\HelpDeskPrueba_.dll
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\obj\Debug\HelpDeskPrueba_.pdb
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\Newtonsoft.Json.dll
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\System.Net.Http.Formatting.dll
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\System.Web.Http.dll
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\System.Web.Http.WebHost.dll
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\Newtonsoft.Json.xml
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\System.Net.Http.Formatting.xml
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\System.Web.Http.xml
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskPrueba_\bin\System.Web.Http.WebHost.xml
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\csc.exe
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\vbc.exe
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\VBCSCompiler.exe
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\HelpDeskPrueba_.dll.config
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\HelpDeskPrueba_.dll
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\HelpDeskPrueba_.pdb
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\DataBaseProject.dll
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\HelpDeskBackend.dll
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\Newtonsoft.Json.dll
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\System.Net.Http.Formatting.dll
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\System.Web.Http.dll
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\System.Web.Http.WebHost.dll
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\DataBaseProject.pdb
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\HelpDeskBackend.pdb
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\Newtonsoft.Json.xml
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\System.Net.Http.Formatting.xml
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\System.Web.Http.xml
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\bin\System.Web.Http.WebHost.xml
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\obj\Debug\HelpDeskFrontEnd.csprojResolveAssemblyReference.cache
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\obj\Debug\HelpDeskPrueba_.dll
+C:\Users\Bebito\Desktop\jayweb\HelpDeskPrueba_\HelpDeskPrueba_\HelpDeskPrueba_\obj\Debug\HelpDeskPrueba_.pdb
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\csc.exe
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\System.Collections.Immutable.dll
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\System.Reflection.Metadata.dll
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\vbc.exe
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\VBCSCompiler.exe
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\VBCSCompiler.exe.config
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\HelpDeskBackend.dll
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\Newtonsoft.Json.dll
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\System.Net.Http.Formatting.dll
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\System.Web.Http.dll
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\System.Web.Http.WebHost.dll
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\EntityFramework.dll
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\HelpDeskBackend.pdb
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\Newtonsoft.Json.xml
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\System.Net.Http.Formatting.xml
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\System.Web.Http.xml
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\System.Web.Http.WebHost.xml
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\EntityFramework.xml
+F:\HelpDeskPrueba_\HelpDeskPrueba_\obj\Debug\HelpDeskFrontEnd.csprojResolveAssemblyReference.cache
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\csc.exe
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\System.Collections.Immutable.dll
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\System.Reflection.Metadata.dll
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\vbc.exe
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\VBCSCompiler.exe
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\roslyn\VBCSCompiler.exe.config
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\HelpDeskBackend.dll
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\Newtonsoft.Json.dll
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\System.Net.Http.Formatting.dll
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\System.Web.Http.dll
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\System.Web.Http.WebHost.dll
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\EntityFramework.dll
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\HelpDeskBackend.pdb
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\Newtonsoft.Json.xml
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\System.Net.Http.Formatting.xml
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\System.Web.Http.xml
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\System.Web.Http.WebHost.xml
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\EntityFramework.xml
+H:\HelpDeskPrueba_\HelpDeskPrueba_\obj\Debug\HelpDeskFrontEnd.csprojResolveAssemblyReference.cache
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\HelpDeskFrontEnd.dll.config
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\HelpDeskFrontEnd.dll
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\HelpDeskFrontEnd.pdb
+H:\HelpDeskPrueba_\HelpDeskPrueba_\obj\Debug\HelpDeskFrontEnd.dll
+H:\HelpDeskPrueba_\HelpDeskPrueba_\obj\Debug\HelpDeskFrontEnd.pdb
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\EntityFramework.SqlServer.dll
+H:\HelpDeskPrueba_\HelpDeskPrueba_\bin\EntityFramework.SqlServer.xml
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\HelpDeskFrontEnd.dll.config
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\HelpDeskFrontEnd.dll
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\HelpDeskFrontEnd.pdb
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\EntityFramework.SqlServer.dll
+F:\HelpDeskPrueba_\HelpDeskPrueba_\bin\EntityFramework.SqlServer.xml
+F:\HelpDeskPrueba_\HelpDeskPrueba_\obj\Debug\HelpDeskFrontEnd.dll
+F:\HelpDeskPrueba_\HelpDeskPrueba_\obj\Debug\HelpDeskFrontEnd.pdb

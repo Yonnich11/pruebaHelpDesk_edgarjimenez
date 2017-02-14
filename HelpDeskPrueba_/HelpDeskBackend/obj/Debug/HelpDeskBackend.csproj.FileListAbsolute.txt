@@ -1,0 +1,26 @@
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskBackend\bin\Debug\HelpDeskBackend.dll
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskBackend\bin\Debug\HelpDeskBackend.pdb
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskBackend\bin\Debug\DataBaseProject.dll
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskBackend\bin\Debug\DataBaseProject.pdb
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskBackend\obj\Debug\HelpDeskBackend.csprojResolveAssemblyReference.cache
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskBackend\obj\Debug\HelpDeskBackend.dll
+c:\users\ejimenez\documents\visual studio 2015\Projects\HelpDeskPrueba_\HelpDeskBackend\obj\Debug\HelpDeskBackend.pdb
+H:\HelpDeskPrueba_\HelpDeskBackend\bin\Debug\HelpDeskBackend.dll.config
+H:\HelpDeskPrueba_\HelpDeskBackend\bin\Debug\HelpDeskBackend.dll
+H:\HelpDeskPrueba_\HelpDeskBackend\bin\Debug\HelpDeskBackend.pdb
+H:\HelpDeskPrueba_\HelpDeskBackend\bin\Debug\EntityFramework.dll
+H:\HelpDeskPrueba_\HelpDeskBackend\bin\Debug\EntityFramework.SqlServer.dll
+H:\HelpDeskPrueba_\HelpDeskBackend\bin\Debug\EntityFramework.xml
+H:\HelpDeskPrueba_\HelpDeskBackend\bin\Debug\EntityFramework.SqlServer.xml
+H:\HelpDeskPrueba_\HelpDeskBackend\obj\Debug\HelpDeskBackend.csprojResolveAssemblyReference.cache
+H:\HelpDeskPrueba_\HelpDeskBackend\obj\Debug\HelpDeskBackend.dll
+H:\HelpDeskPrueba_\HelpDeskBackend\obj\Debug\HelpDeskBackend.pdb
+F:\HelpDeskPrueba_\HelpDeskBackend\bin\Debug\HelpDeskBackend.dll.config
+F:\HelpDeskPrueba_\HelpDeskBackend\bin\Debug\HelpDeskBackend.dll
+F:\HelpDeskPrueba_\HelpDeskBackend\bin\Debug\HelpDeskBackend.pdb
+F:\HelpDeskPrueba_\HelpDeskBackend\bin\Debug\EntityFramework.dll
+F:\HelpDeskPrueba_\HelpDeskBackend\bin\Debug\EntityFramework.SqlServer.dll
+F:\HelpDeskPrueba_\HelpDeskBackend\bin\Debug\EntityFramework.xml
+F:\HelpDeskPrueba_\HelpDeskBackend\bin\Debug\EntityFramework.SqlServer.xml
+F:\HelpDeskPrueba_\HelpDeskBackend\obj\Debug\HelpDeskBackend.dll
+F:\HelpDeskPrueba_\HelpDeskBackend\obj\Debug\HelpDeskBackend.pdb

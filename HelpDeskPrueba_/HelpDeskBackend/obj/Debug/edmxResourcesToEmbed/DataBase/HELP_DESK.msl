@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PRUEBA_HELP_DESKModelStoreContainer" CdmEntityContainer="PRUEBA_HELP_DESKEntities">
+    <EntitySetMapping Name="PR_DEPARTMENTS">
+      <EntityTypeMapping TypeName="PRUEBA_HELP_DESKModel.PR_DEPARTMENTS">
+        <MappingFragment StoreEntitySet="PR_DEPARTMENTS">
+          <ScalarProperty Name="ID_DEPARTMENT" ColumnName="ID_DEPARTMENT" />
+          <ScalarProperty Name="DEPARTMENT" ColumnName="DEPARTMENT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PR_PROBLEM">
+      <EntityTypeMapping TypeName="PRUEBA_HELP_DESKModel.PR_PROBLEM">
+        <MappingFragment StoreEntitySet="PR_PROBLEM">
+          <ScalarProperty Name="ID_PROBLEM" ColumnName="ID_PROBLEM" />
+          <ScalarProperty Name="PROBLEM" ColumnName="PROBLEM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PR_TICKET">
+      <EntityTypeMapping TypeName="PRUEBA_HELP_DESKModel.PR_TICKET">
+        <MappingFragment StoreEntitySet="PR_TICKET">
+          <ScalarProperty Name="ID_TICKET" ColumnName="ID_TICKET" />
+          <ScalarProperty Name="USER_CREATED" ColumnName="USER_CREATED" />
+          <ScalarProperty Name="USER_ASIGNED" ColumnName="USER_ASIGNED" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+          <ScalarProperty Name="COMMENTARY" ColumnName="COMMENTARY" />
+          <ScalarProperty Name="ID_PROBLEM" ColumnName="ID_PROBLEM" />
+          <ScalarProperty Name="ID_DEPARTMENT_ASIGNED" ColumnName="ID_DEPARTMENT_ASIGNED" />
+          <ScalarProperty Name="CREATED_DATE" ColumnName="CREATED_DATE" />
+          <ScalarProperty Name="CLOSED_DATE" ColumnName="CLOSED_DATE" />
+          <ScalarProperty Name="ID_STATE" ColumnName="ID_STATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PR_TICKET_STATE">
+      <EntityTypeMapping TypeName="PRUEBA_HELP_DESKModel.PR_TICKET_STATE">
+        <MappingFragment StoreEntitySet="PR_TICKET_STATE">
+          <ScalarProperty Name="ID_STATE" ColumnName="ID_STATE" />
+          <ScalarProperty Name="STATE" ColumnName="STATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PR_USER_FOLLOWED">
+      <EntityTypeMapping TypeName="PRUEBA_HELP_DESKModel.PR_USER_FOLLOWED">
+        <MappingFragment StoreEntitySet="PR_USER_FOLLOWED">
+          <ScalarProperty Name="ID_FOLLOW" ColumnName="ID_FOLLOW" />
+          <ScalarProperty Name="ID_USER_FOLLOWED" ColumnName="ID_USER_FOLLOWED" />
+          <ScalarProperty Name="ID_USER_FALLOW" ColumnName="ID_USER_FALLOW" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PR_USERS">
+      <EntityTypeMapping TypeName="PRUEBA_HELP_DESKModel.PR_USERS">
+        <MappingFragment StoreEntitySet="PR_USERS">
+          <ScalarProperty Name="ID_USER" ColumnName="ID_USER" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="ID_ROL" ColumnName="ID_ROL" />
+          <ScalarProperty Name="USER_NAME" ColumnName="USER_NAME" />
+          <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+          <ScalarProperty Name="ACTIVE" ColumnName="ACTIVE" />
+          <ScalarProperty Name="ID_DEPARMENT" ColumnName="ID_DEPARMENT" />
+          <ScalarProperty Name="CREATED_DATE" ColumnName="CREATED_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PR_USERS_ROL">
+      <EntityTypeMapping TypeName="PRUEBA_HELP_DESKModel.PR_USERS_ROL">
+        <MappingFragment StoreEntitySet="PR_USERS_ROL">
+          <ScalarProperty Name="ID_ROL" ColumnName="ID_ROL" />
+          <ScalarProperty Name="ROL" ColumnName="ROL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PR_ANEXOS">
+      <EntityTypeMapping TypeName="PRUEBA_HELP_DESKModel.PR_ANEXOS">
+        <MappingFragment StoreEntitySet="PR_ANEXOS">
+          <ScalarProperty Name="FILES_NTEXT" ColumnName="FILES_NTEXT" />
+          <ScalarProperty Name="ID_TICKET" ColumnName="ID_TICKET" />
+          <ScalarProperty Name="ID_ANEXO" ColumnName="ID_ANEXO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

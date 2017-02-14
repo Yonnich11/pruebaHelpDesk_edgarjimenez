@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <script src="/Scripts/jquery-3.1.1.js"></script>
+
+    <link href="/FrontEnd/Styles/bootstrap.min.css" rel="stylesheet" />
+
+    <script src="/sweetalert-master/dist/sweetalert.min.js"></script>
+    <link href="/sweetalert-master/dist/sweetalert.css" rel="stylesheet" />
+    <link href="/FrontEnd/Styles/ui-bootstrap-csp.css" rel="stylesheet" />
+    <link href="/FrontEnd/Styles/Menu.css" rel="stylesheet" />
+    <title></title>
+    <base href="/" />
+    <style>
+        li > a {
+        cursor:pointer;
+        }
+    </style>
+	<meta charset="utf-8" />
+  
+</head>
+<body ng-controller="indexController">
+
+    <header class="panel panel-info">
+        <div class="alert alert-info">
+            <h1 class="h1" style="font-style: italic; ">Sistema HelpDesk Prueba</h1>
+
+            <div class="form-inline">
+               <label class="control-label">{{datainPantalla.USER_NAME}} {{datainPantalla.NAME}}</label>
+            </div>
+        </div>
+    </header>
+    <div class="row affix-row">
+        <div class="col-sm-3 col-md-2 affix-sidebar">
+            <div class="sidebar-nav">
+                <div class="navbar navbar-default" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <span class="visible-xs navbar-brand">menu</span>
+                    </div>
+                    <div class="navbar-collapse collapse sidebar-navbar-collapse">
+                        <ul class="nav navbar-nav" id="sidenav01">
+                            <li ng-show="!isMenuVisible"><a ng-click="OpenModalLoggin()"><span class="glyphicon glyphicon-user"></span> Login </a></li>
+                            <li ng-show="isMenuVisible"><a ng-click="OpenModalallUsers()"> Listado de Usuarios</a></li>
+                            <li ng-show="isMenuVisible"><a ng-click="gotoUserCreation()"> Creacion de Usuarios</a></li>
+                            <li ng-show="isMenuVisible"><a  ng-click="gotoCreateTicket()"><span class=""></span>Crear Ticket</a></li>
+                            <li ng-show="isMenuVisible"><a ng-click="gototickeNoAsignados()"><span class=""></span> Tickets No Asignados</a></li>
+                            <li ng-show="isMenuVisible"><a ng-click="gototickeAsignados()"><span class=""></span> Mis Ticket</a></li>
+                            <li ng-show="isMenuVisible"><a ng-click="gototicketCerrados()"><span class=""></span> Ticket Cerrados</a></li>
+                                    <li ng-show="isMenuVisible"><a ng-click="gotoInformes()"><span class=""></span> Informes </a></li>
+                            <li ng-show="isMenuVisible"><a ng-click="CloseSession()"><span class="glyphicon glyphicon-lock"></span> Cerrar Sesion</a></li>
+                                          </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-9 col-md-10 affix-content">
+            <div class="container">
+               <div ng-view>
+
+               </div>
+            </div>
+        </div>
+    </div>
+    <script src="/Scripts/jquery-3.1.1.min.js"></script>
+    <script src="/Scripts/angular.min.js"></script>
+    <script src="/Scripts/angular-route.min.js"></script>
+  
+    <script src="/Scripts/angular-animate.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script src="/Scripts/angular-ui/ui-bootstrap.min.js"></script>
+    <script src="/Scripts/angular-ui/ui-bootstrap-tpls.js"></script>
+    <script src="/Scripts/fusioncharts.js"></script>
+    <script src="/Scripts/fusioncharts.charts.js"></script>
+<script src="/Scripts/angular-fusionchartjs.min.js"></script>
+    <script src="/Scripts/angular-base64-upload.js"></script>
+    <script src="/FrontEnd/app.js"></script>
+
+    <!--<script src="FrontEnd/Files/MAin/main.route.js"></script>-->
+    <script src="FrontEnd/Files/MAin/main.controller.js"></script>
+    <!--Mantenimiento Usuario-->
+    <script src="/FrontEnd/Files/userMaintenance/userCreation.route.js"></script>
+    <script src="/FrontEnd/Files/userMaintenance/userCreation.controller.js"></script>
+    <script src="/FrontEnd/Files/userMaintenance/userCreation.service.js"></script>
+
+    <!--Crear Tickets-->
+    <script src="/FrontEnd/Files/create_Ticket/create_Ticket.route.js"></script>
+    <script src="/FrontEnd/Files/create_Ticket/create_Ticket.controller.js"></script>
+    <script src="/FrontEnd/Files/create_Ticket/create_Ticket.service.js"></script>
+
+    <!--No asignados-->
+    <script src="/FrontEnd/Files/Ticket_not_asigned/ticket_not_asig.route.js"></script>
+    <script src="/FrontEnd/Files/Ticket_not_asigned/ticket_not_asig.controller.js"></script>
+    <script src="/FrontEnd/Files/Ticket_not_asigned/ticket_not_asig.service.js"></script>
+   
+    <!--Mis Tickets-->
+    <script src="/FrontEnd/Files/MyTickets/myTicket.route.js"></script>
+    <script src="/FrontEnd/Files/MyTickets/myTicket.js"></script>
+    <script src="/FrontEnd/Files/MyTickets/myTicket.service.js"></script>
+
+    <!--Login-->>
+    <script src="/FrontEnd/Files/Loggin/loggin.service.js"></script>
+
+    <!--Cerrados-->
+    <script src="/FrontEnd/Files/ClosedTicket/closed_Ticket.route.js"></script>
+    <script src="/FrontEnd/Files/ClosedTicket/closedTicket.controller.js"></script>
+
+    <!--Report-->>
+    <script src="/FrontEnd/Files/reports/report.route.js"></script>
+    <script src="/FrontEnd/Files/reports/informesController.js"></script>
+    <script src="/FrontEnd/Files/reports/informesService.js"></script>
+</body>
+</html>

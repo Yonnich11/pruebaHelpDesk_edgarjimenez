@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <fieldset><legend>Ticket no Asignados</legend>
+        <input type="text" class="form-control text-center" placeholder="BUSCAR" ng-model="search" />
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <td>Usuario Creador</td>
+                <td>Problema</td>
+                <td>Descripcion</td>
+                <td>Fecha Creado</td>
+                <td>Estado</td>
+                <td>Opcion</td>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr ng-repeat="item in data | filter:search">
+                <td>{{item.USER_CREATE}}</td>
+                <td>{{item.PROBLEM}}</td>
+                <td>{{item.DESCRIPCION}}</td>
+                <td>{{item.CREATED_DATE | date}}</td>
+                <td>{{item.ESTATE}}</td>
+                <td><button type="button" ng-click="AsignToMe(item.ID_TICKET)" class="btn btn-info" >Asignarme</button></td>
+            </tr>
+        </tbody>
+    </table>
+    </fieldset>
+</body>
+</html>

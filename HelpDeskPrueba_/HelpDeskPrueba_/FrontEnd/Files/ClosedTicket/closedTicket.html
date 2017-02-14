@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <fieldset><legend>Ticket Cerrados</legend>
+    <input type="text" class="form-control text-center" placeholder="BUSCAR" ng-model="search" />
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <td>ID Ticket</td>
+                    <td>Usuario Creador</td>
+                    <td>Usuario finalizo</td>
+                    <td>Problema</td>
+                    <td>Descripcion</td>
+                    <td>Comentario Soporte</td>
+                    <td>Fecha Creado</td>
+                    <td>Fecha Cerrado</td>
+                    <td>Estado</td>
+                   
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr ng-repeat="item in data | filter: search">
+                    <td>{{item.ID_TICKET}}</td>
+                    <td>{{item.USER_CREATED}}</td>
+                    <td>{{item.USER_CLOSED}}</td>
+                    <td>{{item.PROBLEM}}</td>
+                    <td>{{item.DESCRIPCION}}</td>
+                    <td>{{item.COMMENTARY}}</td>
+                    <td>{{item.CREATED_DATE | date}}</td>
+                    <td>{{item.CLOSED_DATE}}</td>
+                    <td>{{item.ESTADO}}</td>
+                  
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>
+</body>
+</html>

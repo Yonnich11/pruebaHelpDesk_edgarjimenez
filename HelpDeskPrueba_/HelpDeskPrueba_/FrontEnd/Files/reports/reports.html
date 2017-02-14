@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <fieldset>
+        <legend>Informes</legend>
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#home">Historico de Solicitudes</a></li>
+            <li><a data-toggle="tab" href="#lista">Lista de Solicitudes</a></li>
+            <li><a data-toggle="tab" href="#tiempo">Tiempo de Gestion en las Solicitudes</a></li>
+            <li><a data-toggle="tab" href="#cerradas">Solicitudes Cerradas</a></li>
+
+        </ul>
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+                <h3>Mis Ticket</h3>
+                <fusioncharts width="600"
+                              height="400"
+                              type="pie3d"
+                              datasource=""></fusioncharts>
+               
+
+            </div>
+            <div id="lista" class="tab-pane fade">
+
+            </div>
+            <div id="tiempo" class="tab-pane fade">
+
+            </div>
+            <div id="cerradas" class="tab-pane fade">
+                <fusioncharts width="600"
+                              height="400"
+                              type="column2d"
+                              datasource=""></fusioncharts>
+            </div>
+        </div>
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,15 @@
+﻿Generated model file: HELP_DESK.edmx.
+Loading metadata from the database took 00:00:02.5298960.
+Generating the model took 00:00:04.1575895.
+Generated model file: HELP_DESK.edmx.
+Loading metadata from the database took 00:00:00.7850165.
+Generating the model took 00:00:02.2488188.
+The model was generated with warnings or errors.HELP_DESK.edmxPlease see the Error List for more details. These issues must be fixed before running your application.
+Loading metadata from the database took 00:00:00.8440337.
+Generating the model took 00:00:02.0995314.
+Generated model file: HELP_DESK.edmx.
+Loading metadata from the database took 00:00:01.2351695.
+Generating the model took 00:00:01.9835633.
+Generated model file: HELP_DESK.edmx.
+Loading metadata from the database took 00:00:00.8655699.
+Generating the model took 00:00:02.9568485.

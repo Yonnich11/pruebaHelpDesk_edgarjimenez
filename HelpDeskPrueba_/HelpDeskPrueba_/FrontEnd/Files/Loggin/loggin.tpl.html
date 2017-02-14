@@ -1,0 +1,44 @@
+﻿
+<div class="modal-content panel-default">
+
+    <div class="modal-header panel-heading" id="act_client_data">
+        <h3 class="modal-title" id="modal-title"><span class="glyphicon glyphicon-lock"></span>  Ingresar Help Desk</h3>
+    </div>
+
+    <form name="frmLoggin">
+        <div class="modal-body" id="modal-body">
+
+           <div class="form-group">
+                <label class="control-label">User Name</label>
+                <div class="">
+                    <input type="text" required ng-model="datauser.USER_NAME" class="form-control col-md-4" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Password</label>
+                <div class="">
+                    <input type="password" required ng-model="datauser.PASSWORD" class="form-control col-md-4" />
+                </div>
+            </div>
+
+
+        </div>
+    </form>
+    <div class="modal-footer">
+        <div class="btn-group">
+            <button type="button" class="btn btn-success" ng-click="Login();">Acceder <span class="glyphicon glyphicon-user"></span></button>
+        </div>
+
+        <div class="btn-group">
+            <button type="button" ng-click="cancel()" class="btn btn-danger">Cancelar<span class="glyphicon glyphicon-log-out"></span></button>
+        </div>
+
+    </div>
+
+
+</div>
+
+
+
+
+

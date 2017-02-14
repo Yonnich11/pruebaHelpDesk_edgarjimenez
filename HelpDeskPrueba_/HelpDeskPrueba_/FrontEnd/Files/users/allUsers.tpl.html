@@ -1,0 +1,49 @@
+﻿
+<div class="modal-content panel-default">
+
+    <div class="modal-header panel-heading" id="act_client_data">
+        <h3 class="modal-title" id="modal-title"><span class="glyphicon glyphicon-lock"></span>  Todos los Usuarios </h3>
+    </div>
+
+    <div class="modal-body" id="modal-body">
+        <input type="text" class="form-control text-center" placeholder="BUSCAR" ng-model="search" />
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <td>ID Usuario</td>
+                    <td>Nombre</td>
+                    <td>Departamento</td>
+                    <td>Cargo</td>
+                   
+                    <td>Opcion</td>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr ng-repeat="item in users | filter:search">
+                    <td>{{item.ID_USER}}</td>
+                    <td>{{item.NAME}}</td>
+                    <td>{{item.DEPARTMENT}}</td>
+                    <td>{{item.ROL}}</td>
+                    <td><button type="button" ng-click="fallowUser(item)" class="btn btn-info">Seguir</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+        </div>
+        <div class="modal-footer">
+
+
+            <div class="btn-group">
+                <button type="button" ng-click="cancel()" class="btn btn-danger">Cancelar<span class="glyphicon glyphicon-log-out"></span></button>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
